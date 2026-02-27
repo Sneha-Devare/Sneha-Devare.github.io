@@ -108,7 +108,89 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
+/* ================= MOBILE RESPONSIVE ================= */
 
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 26px !important;
+  }
+
+  h2 {
+    font-size: 22px !important;
+  }
+
+  #typing-animation {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .one-third,
+  .one-forth {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .blog-entry {
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 10px 20px !important;
+    font-size: 14px;
+  }
+
+}
+/* ================= MOBILE ONLY ================= */
+@media (max-width: 768px) {
+
+  /* Prevent horizontal scroll */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* Hero Section */
+  .one-third,
+  .one-forth {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  #typing-animation {
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  /* Headings smaller on mobile */
+  h1 {
+    font-size: 26px !important;
+  }
+
+  h2 {
+    font-size: 22px !important;
+  }
+
+  /* Projects spacing */
+  .blog-entry {
+    margin-bottom: 25px;
+  }
+
+  /* Buttons resize */
+  .btn {
+    padding: 10px 18px !important;
+    font-size: 14px;
+  }
+
+  /* About image center */
+  .about-img img {
+    margin-left: 0;
+  }
+
+}
 
 </style>
 
@@ -144,7 +226,7 @@
           
           <!-- Image background section -->
 <div class="one-third order-md-last d-flex align-items-center">
-  <img src="images/data.jpg" style="width:100%; height:auto;">
+  <img src="images/data.jpg" class="img-fluid" alt="Data Image">
 </div>
 
 
@@ -210,7 +292,6 @@
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
-			<div class="row">
 				<div class="row d-flex align-items-stretch">
 				<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
@@ -303,7 +384,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
     </section>
 
 
@@ -740,7 +820,7 @@
     </div>
   </div>
 </section>
-<section class="ftco-section" id="supervised-learning">
+<section class="ftco-section" id="data-analysis">
   <div class="container">
     <div class="row justify-content-center mb-5 pb-2">
       <div class="col-md-7 heading-section text-center ftco-animate">
@@ -814,6 +894,83 @@
           <div class="text mt-3 float-right d-block">
             <h3 class="heading"><a href="https://github.com/Sneha-Devare/Crypto_Market_Analysis_ML_Project">Telecom Exploratory Data Analysis Project</a></h3>
             <p>Developed classification models to predict price percent change in crypto market.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Unsupervised Learning Projects -->
+<section class="ftco-section" id="Excel-PowerBI-projects">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-2">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+        <h1 class="big big-2">Excel and Power BI</h1>
+        <h2 class="mb-4">Excel and Power BI Projects</h2>
+        <p>These projects deal with unlabeled data to find patterns, clusters, or relationships in the dataset.</p>
+      </div>
+    </div>
+
+    <div class="row d-flex">
+      <!-- Example Project 1 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="#" class="block-20 zoom-effect" style="background-image: url('images/9855345.jpg');"></a>
+          <div class="text mt-3 float-right d-block">
+            <h3 class="heading"><a href="#">Sales Data Dashboard using MS-Excel</a></h3>
+            <p>Used clustering to group customers based on purchase behavior and demographics.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="#" class="block-20 zoom-effect" style="background-image: url('images/3922342.jpg');"></a>
+          <div class="text mt-3 float-right d-block">
+            <h3 class="heading"><a href="#">COVID-19 Dashboard in MS-Excel</a></h3>
+            <p>Used clustering to group customers based on purchase behavior and demographics.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Project 2 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="#" class="block-20 zoom-effect" style="background-image: url('images/2108.i201.031.S.m004.c13.car accidents isometric.jpg');"></a>
+          <div class="text mt-3 float-right d-block">
+            <h3 class="heading"><a href="#">Accidents in 2017 Dashboard using Power BI</a></h3>
+            <p>Identified frequently bought item combinations to optimize store layout and recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex">
+      <!-- Example Project 1 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="#" class="block-20 zoom-effect" style="background-image: url('images/l5bd_44cm_230614.jpg');"></a>
+          <div class="text mt-3 float-right d-block">
+            <h3 class="heading"><a href="#">Vrinda Annual Sales Report 2022 using MS-Excel</a></h3>
+            <p>Used clustering to group customers based on purchase behavior and demographics.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="#" class="block-20 zoom-effect" style="background-image: url('images/4891170.jpg');"></a>
+          <div class="text mt-3 float-right d-block">
+            <h3 class="heading"><a href="#">Madhav E-Commerce Sales Dashboard using Power BI</a></h3>
+            <p>Used clustering to group customers based on purchase behavior and demographics.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Project 2 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="#" class="block-20 zoom-effect" style="background-image: url('images/41481.jpg');"></a>
+          <div class="text mt-3 float-right d-block">
+            <h3 class="heading"><a href="#">Collage Majors Employment and Trends using Power BI</a></h3>
+            <p>Identified frequently bought item combinations to optimize store layout and recommendations.</p>
           </div>
         </div>
       </div>
@@ -942,7 +1099,7 @@
         </div>
 
         <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="col-12 col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-map-signs"></span>
