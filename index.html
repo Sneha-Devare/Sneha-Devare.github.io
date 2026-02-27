@@ -108,9 +108,13 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
-/* ================= MOBILE RESPONSIVE ================= */
 
+/* ================= MOBILE ONLY ================= */
 @media (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
 
   h1 {
     font-size: 26px !important;
@@ -122,6 +126,7 @@
 
   #typing-animation {
     font-size: 18px;
+    white-space: normal;
     text-align: center;
   }
 
@@ -132,109 +137,36 @@
   }
 
   .blog-entry {
+    margin-bottom: 25px;
+  }
+
+  .btn {
+    padding: 10px 18px !important;
+    font-size: 14px;
+  }
+
+  .about-img img {
+    margin-left: 0;
+  }
+
+  @media (max-width: 768px) {
+
+  .hero-text {
+    position: static !important;
+    transform: none !important;
     margin-bottom: 20px;
   }
 
-  .navbar-brand {
-    font-size: 18px;
+  .hero-image {
+    margin-top: 20px;
   }
 
-  .btn {
-    padding: 10px 20px !important;
-    font-size: 14px;
-  }
-
-}
-/* ================= MOBILE ONLY ================= */
-@media (max-width: 768px) {
-
-  /* Prevent horizontal scroll */
-  html, body {
-    overflow-x: hidden;
-  }
-
-  /* Hero Section */
-  .one-third,
-  .one-forth {
-    width: 100% !important;
-    text-align: center;
-  }
-
-  #typing-animation {
-    font-size: 18px;
-    white-space: normal;
-  }
-
-  /* Headings smaller on mobile */
-  h1 {
-    font-size: 26px !important;
-  }
-
-  h2 {
-    font-size: 22px !important;
-  }
-
-  /* Projects spacing */
-  .blog-entry {
-    margin-bottom: 25px;
-  }
-
-  /* Buttons resize */
-  .btn {
-    padding: 10px 18px !important;
-    font-size: 14px;
-  }
-
-  /* About image center */
-  .about-img img {
-    margin-left: 0;
+  .hero-image img {
+    width: 100%;
+    height: auto;
   }
 
 }
-/* ================= MOBILE ONLY ================= */
-@media (max-width: 768px) {
-
-  /* Prevent horizontal scroll */
-  html, body {
-    overflow-x: hidden;
-  }
-
-  /* Hero Section */
-  .one-third,
-  .one-forth {
-    width: 100% !important;
-    text-align: center;
-  }
-
-  #typing-animation {
-    font-size: 18px;
-    white-space: normal;
-  }
-
-  /* Headings smaller on mobile */
-  h1 {
-    font-size: 26px !important;
-  }
-
-  h2 {
-    font-size: 22px !important;
-  }
-
-  /* Projects spacing */
-  .blog-entry {
-    margin-bottom: 25px;
-  }
-
-  /* Buttons resize */
-  .btn {
-    padding: 10px 18px !important;
-    font-size: 14px;
-  }
-
-  /* About image center */
-  .about-img img {
-    margin-left: 0;
-  }
 
 }
 
@@ -691,7 +623,6 @@
         </div>
       </div>
 
-      <!-- Example Project 3 --
     </div>
     <div class="row d-flex">
       <!-- Example Project 1 -->
