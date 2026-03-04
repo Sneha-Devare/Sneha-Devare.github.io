@@ -4,7 +4,7 @@
 <br>
 <br>
 
-Welcome to the repository of my personal portfolio website.  
+**Welcome to the repository of my personal portfolio website.** 
 
 This portfolio serves as a digital space where I present my work, highlight my technical skills, and share my learning journey in the field of **Data Science and Analytics**. It reflects my interest in exploring data, building analytical solutions, and continuously improving my technical knowledge.
 
