@@ -1,7 +1,8 @@
 # 🌐 Personal Portfolio – Sneha Devare
 <img width="1877" height="846" alt="Screenshot (232)" src="https://github.com/user-attachments/assets/c39f680a-296e-4c54-97d2-d45652f3f5b0" />
 <img width="1879" height="856" alt="Screenshot (233)" src="https://github.com/user-attachments/assets/31724251-9ad3-4447-962f-2b9783e99ed0" />  
-
+<br>
+<br>
 
 Welcome to the repository of my personal portfolio website.  
 
