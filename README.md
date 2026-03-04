@@ -94,9 +94,9 @@ Provides ways to connect with me for collaboration, opportunities, or discussion
 If you would like to connect, collaborate, or discuss opportunities, feel free to reach out.
 
 📧 **Email:** snehadevare@gmail.com  
-🔗 **LinkedIn:** www.linkedin.com/in/sneha-devare-9124112b3 
-💻 **GitHub:** https://github.com/Sneha-Devare 
-✍️ **Medium:** https://medium.com/@snehadevare158
+🔗 **LinkedIn:** www.linkedin.com/in/sneha-devare-9124112b3   
+💻 **GitHub:** https://github.com/Sneha-Devare  
+✍️ **Medium:** https://medium.com/@snehadevare158  
 
 
 ---
